@@ -168,4 +168,38 @@ body {
 /* main end */
 
 /* footer */
+
+.footer {
+    padding: 50px 0;
+    background: var(--gray-footer-bg);
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+
+.footer__title {
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer__span {
+    color: var(--red);
+}
+
+.footer__link {
+    color: var(--gray-footer-text);
+    border-bottom: 1px solid var(--gray-footer-text);
+    margin-bottom: 3px;
+    display: inline-block;
+}
+
+.footer__link:hover {
+    color: var(--red);
+}
+
 /* footer end */
